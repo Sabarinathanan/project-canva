@@ -1,0 +1,125 @@
+@font-face{
+  font-family: font;
+  src: url('/Cute_Aurora_demo.ttf');  
+}
+:root{
+  --front-family:sans-serif;
+   --font-size:medium;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-image: url("/image/hero-bg-icons.svg");
+  background-repeat: repeat-y;
+  background-size: 100vw 100vh;
+  line-height: 1.5;
+}
+/* .row{
+  margin: 0px 12px;
+  padding: 48px 0px 24px;
+} */
+/* .col1,.col2{
+  width: 960px;
+  height: 510px;
+  margin-top: 10px;
+} */
+.sans{
+  font-family: "Roboto", sans-serif;
+}
+.fsize{
+  font-size: 18px;
+}
+.image-container img{
+  max-width: 100%;
+}
+/* .service1{
+    margin: 0 12px 50px;
+} */
+#services .service1 p
+{
+  font-family: "Roboto", sans-serif;
+  font-size:16px;
+  color:#6C757D;
+}
+.service-image{
+  width:max-content;
+  height:fit-content;
+  padding:0 12px;
+  margin-bottom:24px;
+}
+#care-temp{
+
+  padding: 0 12px 50px;
+}
+.temp-bg{
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: #EDDEE6;
+
+}
+.img-pic img{
+  margin-top:-58px;
+}
+.card-service{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+/* cards */
+.card-title ul{
+  list-style: none;
+}
+.card-title ul button{
+  font-family: font;
+}
+.card-text li,.card-text {
+  font-family: sans-serif;
+}
+.card-header{
+  background-color: #547794;
+  color:#F6F3EE;
+}
+
+
+/* cards-color */
+#Toddler{
+  background-color: #547794; 
+  color:#F6F3EE
+}
+#Preschool{
+  background-color: #FABB7C;
+  color:#9F4035 
+}
+#Kindergarten{
+  background-color: #CEDAB0;
+  color:#3E540D
+}
+#Pre-Kindergarten{
+  background-color: #EDDEE6; 
+  color:#A84B9D
+}
+
+.carouselSlider{
+  /* width:fit-content; */
+  
+  /* margin-bottom: 100px !important; */
+} 
+.linone{
+  list-style-type: none;
+}
+.final ul li{
+  list-style: url(/image/caret-down-solid.svg);
+  margin-bottom: 10px;
+}
+.final ul li a{
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: black;
+  
+}
