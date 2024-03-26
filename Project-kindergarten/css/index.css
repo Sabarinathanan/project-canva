@@ -44,14 +44,27 @@ body {
 .settings{
   position: fixed;
   top: 20%;
-  left: 95%;
+  left: 90%;
 }
 .home{
   position: fixed;
   top: 80%;
-  left: 95%;
+  left: 90%;
 }
 
+/* fish */
+.fish1{
+  position: absolute; 
+  top: 90%;
+  left: 80%;
+  max-width: 13vw;
+}
+.fish2{
+  position: absolute;
+  top: -40%;
+  left: 0%; 
+  max-width: 13vw;
+}
 
 #services .service1 p
 {
@@ -121,25 +134,19 @@ body {
 
 
 /* media quires */
-@media only screen and (min-width: 426px) and (max-width:991px){
+@media only screen and (max-width:424px){
   
-  .hero-img {
-    position: absolute;
-    top: 10%;
-    height: 30vh;
-  }
   .number {
     visibility: hidden;
-    padding: 0;
   }
   .button{
     position: fixed;
-    left: 70%;  
+    left: 65%;  
     top: 5%;
   }
   .wp{
     position: fixed;
-    left: 55%;
+    left: 45%;
     top: 5%;
   }
   .hero-img{
@@ -156,13 +163,28 @@ body {
     top: 80%;
     left: 85%;
   }  
+  .fish1{
+    position: absolute; 
+    top: 105%;
+    left: 80%;
+    max-width: 20%;
+    z-index: 1;
+  }
+  .fish2{
+    position: absolute;
+    top: -20%;
+    left: 0%; 
+    max-width: 25vw;
+  }
+  
 
 }
-@media only screen and (min-width: 0px) and (max-width:425px){
+/* 426 to 991 */
+@media only screen and (min-width: 425px) and (max-width:991px){
+  
   .hero-img {
     position: absolute;
     top: 10%;
-    height: 30vh;
   }
   .number {
     visibility: hidden;
@@ -172,11 +194,13 @@ body {
     position: fixed;
     left: 85%;  
     top: 5%;
+    z-index: 0;
   }
   .wp{
     position: fixed;
-    left: 75%;
+    left: 65%;
     top: 5%;
+    z-index: -1;
   }
   .hero-img{
     position: relative;
@@ -192,8 +216,39 @@ body {
     top: 80%;
     left: 85%;
   }  
-
+  
+  
 }
-
+/* fish  */
+@media only screen and (min-width: 425px) and (max-width:767px){
+  .fish1{
+    position: absolute; 
+    top: 105%;
+    left: 80%;
+    max-width: 20%;
+    z-index: 1;
+  }
+  .fish2{
+    position: absolute;
+    top: -20%;
+    left: 0%; 
+    max-width: 25vw;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+  .fish1{
+    position: absolute; 
+    top: 100%;
+    left: 80%;
+    max-width: 15vw;
+    z-index: 1;
+  }
+  .fish2{
+    position: absolute;
+    top: -35%;
+    left: 0%; 
+    max-width: 15vw;
+  }
+}
 
 
