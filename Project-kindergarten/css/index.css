@@ -121,10 +121,52 @@ body {
 
 
 /* media quires */
-@media only screen and (min-width: 0px) and (max-width:991px){
+@media only screen and (min-width: 426px) and (max-width:991px){
   
+  .hero-img {
+    position: absolute;
+    top: 10%;
+    height: 30vh;
+  }
   .number {
     visibility: hidden;
+    padding: 0;
+  }
+  .button{
+    position: fixed;
+    left: 70%;  
+    top: 5%;
+  }
+  .wp{
+    position: fixed;
+    left: 55%;
+    top: 5%;
+  }
+  .hero-img{
+    position: relative;
+    left: 5%;
+  }
+  .settings{
+    position: fixed;
+    top: 20%;
+    left: 85%;
+  }
+  .home{
+    position: fixed;
+    top: 80%;
+    left: 85%;
+  }  
+
+}
+@media only screen and (min-width: 0px) and (max-width:425px){
+  .hero-img {
+    position: absolute;
+    top: 10%;
+    height: 30vh;
+  }
+  .number {
+    visibility: hidden;
+    padding: 0;
   }
   .button{
     position: fixed;
