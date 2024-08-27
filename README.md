@@ -12,7 +12,7 @@ Kindergarten | Canvas is a responsive webpage designed for a kindergarten, built
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, Bootstrap
+- **Frontend**: HTML5, CSS3, Bootstrap
 
 ## Installation
 
